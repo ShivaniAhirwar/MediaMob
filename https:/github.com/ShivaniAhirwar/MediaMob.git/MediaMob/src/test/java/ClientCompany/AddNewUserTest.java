@@ -127,7 +127,7 @@ public class AddNewUserTest extends BaseClass
 		  
 		    webLib.assertMethod();
 		 	   
-	  //     driver.findElement(By.xpath("//button[text()='Delete']")).click();
+	       driver.findElement(By.xpath("//button[text()='Delete']")).click();
 	       Thread.sleep(3000);
 		   driver.quit();
 	}
