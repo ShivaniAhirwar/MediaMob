@@ -130,6 +130,8 @@ public class AddNewUserTest extends BaseClass
 	       driver.findElement(By.xpath("//button[text()='Delete']")).click();
 	       Thread.sleep(3000);
 		   driver.quit();
+		   
+		   
 	}
 
 }
